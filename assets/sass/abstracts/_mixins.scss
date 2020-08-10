@@ -1,0 +1,14 @@
+@include media-breakpoint-up(small) { 
+    .listado-izquierdo {
+        display: none;
+      }
+}
+
+@include media-breakpoint-up(medium) { 
+    .listado-izquierdo {
+        display: none;
+      }
+}
+
+@include media-breakpoint-up(large) { ... }
+@include media-breakpoint-up(extralarge) { ... }

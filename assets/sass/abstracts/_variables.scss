@@ -1,36 +1,3 @@
-@media only screen and (min-width: 320px) {
-  .contenedor {
-  width: 258px;
-  }
-  .listado-izquierdo {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .contenedor {
-  width: 746px;
-  }
-  .listado-izquierdo {
-    display: none;
-  }
-}
-
-@media only screen and(min-width: 992px) {
-  .contenedor {
-  width: 970px;
-  }
-}
-    
-@media only screen and (min-width: 1200px) {
-  .contenedor {
-  width: 100%;
-  }
-}
-
-
-
-
 ///Font Family
 /// @type List
 $text-font-stack: 'Pacifico', cursive !default;
@@ -62,10 +29,9 @@ $max-width: 960px !default;
 
 
 /// Breakpoints
-/// @prop {String} keys - Keys are identifiers mapped to a given length
-/// @prop {Map} values - Values are actual breakpoints expressed in pixels
 $breakpoints: (
-  'small': 320px,
+  'small': 576px,
   'medium': 768px,
-  'large': 1200px,
+  'large': 992px;
+  'extralarge': 1200px,
 ) !default;

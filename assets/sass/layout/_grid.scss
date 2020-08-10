@@ -12,3 +12,32 @@
 .col-xs-12 {
     grid-column: span 12
     }
+
+
+ //Small//   
+@media (min-width: 576px) {
+    .contenedor {
+    width: 554px;
+    }
+}
+
+//Medium//
+@media (min-width: 768px) {
+    .contenedor {
+    width: 746px;
+    }
+}
+
+//Large//
+@media (min-width: 992px) {
+    .contenedor {
+    width: 970px;
+    }
+}
+
+// ExtraLarge//
+@media (min-width: 1200px) {
+    .contenedor {
+    width: 100%;
+    }
+}
