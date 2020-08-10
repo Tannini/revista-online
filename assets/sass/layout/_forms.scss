@@ -1,0 +1,29 @@
+/*Newsletter*/
+@media only screen and (max-width: 960px) {
+    .newsletter {
+        width: 960px;
+        background-color: $gris;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        h2 {
+            font-size: 24px
+        }
+
+        .group input,
+        .group button {
+            display: inline-block;
+            border-width: 0;
+            font-size: 13px;
+            padding: 5px 10px;
+        }
+
+        .group button {
+            background-color: coral;
+            color: $blanco;
+        }
+
+    }
+
+}    

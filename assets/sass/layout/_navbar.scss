@@ -1,0 +1,34 @@
+/*Nav*/
+@media only screen and (max-width: 960px) {
+    nav {
+        width: 960px;
+        padding: 5%;
+        border-bottom: 1px solid gray;
+        display: inline-block;
+        text-align: right;
+        font-family: $code-font-stack;
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            float: left;
+            display: inline-block;
+            margin-top: 1%;
+        }
+
+        ul li {
+            list-style-type: none;
+            padding-right: 2%;
+            display: inline-block;
+        }
+
+        .input {
+            border-radius: 30px;
+            border: 1px solid;
+            float: right;
+        }
+
+    }
+
+}    

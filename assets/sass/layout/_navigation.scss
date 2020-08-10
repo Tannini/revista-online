@@ -1,0 +1,84 @@
+/*Navigation*/
+nav {
+    width: 960px;
+    padding: 5%;
+    border-bottom: 1px solid gray;
+    display: inline-block;
+    text-align: right;
+    font-family: $code-font-stack;
+
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        float: left;
+        display: inline-block;
+        margin-top: 4px;
+    }
+
+    ul li {
+        list-style-type: none;
+        padding-right: 2%;
+        display: inline-block;
+    }
+
+    .input-menu {
+        border-radius: 30px;
+        border: 1px solid;
+        float: right;
+    }
+
+    .collapsible {
+        text-align: right;
+
+        label {
+        display: block;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        padding-right: 1.5em;
+        font-size: 1.8rem;
+        }
+    }
+
+    #menu {
+        display: none;
+    }
+
+    input:checked ~ .navbar {
+        max-height: 100%;
+        }
+
+    .navbar {
+        max-height: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .logo {
+        float: left;
+        display: inline-block;
+        margin-top: 1%;
+    }
+
+    .collapsible {
+        label {
+        display: none;
+        }
+    }
+
+    .navbar {
+        max-height: 100%;
+        padding: 5%;
+        overflow: visible;
+        
+
+        ul {
+            display: flex;
+            justify-content: flex-end;
+            margin: inherit;
+            padding: inherit;
+            }
+        }
+}    

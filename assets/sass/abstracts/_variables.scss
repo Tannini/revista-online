@@ -1,0 +1,71 @@
+@media only screen and (min-width: 320px) {
+  .contenedor {
+  width: 258px;
+  }
+  .listado-izquierdo {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contenedor {
+  width: 746px;
+  }
+  .listado-izquierdo {
+    display: none;
+  }
+}
+
+@media only screen and(min-width: 992px) {
+  .contenedor {
+  width: 970px;
+  }
+}
+    
+@media only screen and (min-width: 1200px) {
+  .contenedor {
+  width: 100%;
+  }
+}
+
+
+
+
+///Font Family
+/// @type List
+$text-font-stack: 'Pacifico', cursive !default;
+
+///Code font family
+/// @type List
+$code-font-stack: 'Antic Slab', serif !default;
+
+
+
+/// Blanco
+/// @type Color
+$blanco: rgb(255,255,255) !default;
+
+/// Link
+/// @type Color
+$morado: rgb(128, 0, 128) !default;
+
+/// Border
+/// @type Color
+$gris: rgb(220, 220, 220) !default;
+
+
+
+/// Tamaño container
+/// @type Length
+$max-width: 960px !default;
+
+
+
+/// Breakpoints
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1200px,
+) !default;
